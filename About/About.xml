@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>ED-ShieldsBasic</name>
-	<targetVersion>0.17.1546</targetVersion>
-	<author>Jaxxa</author>
+	<targetVersion>0.17.1557</targetVersion>
+	<author>Jaxxa (patched by Jetpack_Maniac)</author>
 	<url>https://ludeon.com/forums/index.php?topic=18995.0</url>
-	<description>Version: 0.17.0
+	<description>Version: 0.17.01 for CE
+This version of ED Shields Basic has been patched for compatability with Combat Extended.  This project is available at: https://github.com/jetpack-maniac/ED-Shields
+
+Original Description from Jaxxa:
 Discussion, Non Steam Downloads and GitHub Repositories of this mod is available at: https://ludeon.com/forums/index.php?topic=18995
 
 This mod allows you to place shield generators. They are expensive and power hungry but can really strengthen your defences. The standard shields will stop projectiles that try to enter it, but allow weapons to be fired out.
 
 Credits:
+* Jaxxa: Original author of ED Shields Basic
 * Darker: Origional Mod http://ludeon.com/forums/index.php?topic=2677.msg24772#msg24772
 * Rilamus: Providing Art
+* Jetpack_Maniac: Patched for Combat Extended
 	</description>
 </ModMetaData>
