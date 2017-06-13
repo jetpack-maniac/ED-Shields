@@ -581,7 +581,7 @@ namespace EnhancedDevelopment.Shields.Basic
                             {
                                 //Log.Message("IFFcheck == true");
                                 Thing launcher =
-                                    ReflectionHelper.GetInstanceField(typeof(Projectile), pr, "launcher") as Thing;
+                                    ReflectionHelper.GetInstanceField(typeof(ProjectileCE), pr, "launcher") as Thing;
 
                                 if (launcher != null)
                                 {
@@ -711,9 +711,7 @@ namespace EnhancedDevelopment.Shields.Basic
         
         public Vector3 GetTargetLocationFromProjectile(ProjectileCE projectile)
         {
-            FieldInfo fieldInfo = projectile.GetType().GetField("destination", BindingFlags.Public | BindingFlags.Instance | BindingFlags.NonPublic);
-            Vector3 reoveredVector = (Vector3)fieldInfo.GetValue(projectile);
-            return reoveredVector;
+            return projectile.ExactPosition;
         }
 
         public bool isBuildingValid(Thing currentBuilding)
